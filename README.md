@@ -1,7 +1,7 @@
 # memento.py
 
 Get endpoints from archived versions of robots.txt
-
+```
 usage: memento.py [-h] [-w] [-s START] target
 
 Find endpoints in archived versions of robots.txt and sitemap.xml
@@ -15,3 +15,4 @@ optional arguments:
                         with wildcards
   -s START, --start START
                         A date to start at in the format YYYY or YYYYMM
+```
