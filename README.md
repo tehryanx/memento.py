@@ -4,7 +4,7 @@ Get endpoints from archived versions of robots.txt
 ```
 usage: memento.py [-h] [-w] [-s START] target
 
-Find endpoints in archived versions of robots.txt and sitemap.xml
+Find endpoints in archived versions of robots.txt
 
 positional arguments:
   target                A target domain
