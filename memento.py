@@ -6,7 +6,7 @@ import json
 import requests
 import sys
 
-parser = argparse.ArgumentParser(description='Find endpoints in archived versions of robots.txt and sitemap.xml')
+parser = argparse.ArgumentParser(description='Find endpoints in archived versions of robots.txt')
 #group = parser.add_mutually_exclusive_group()
 parser.add_argument("target", help="A target domain")
 parser.add_argument("-w", "--wordlistmode", help="Output in wordlist mode - No domains, omit entries with wildcards", action="store_true")
